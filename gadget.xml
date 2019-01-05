@@ -1,0 +1,11 @@
+<Module>
+<ModulePrefs title="Redirect" description="Redirect" width="10" height="10" author="Russ@Duda" author_email="jpassing@hotmail.com" directory_title="Redirect"/>
+<UserPref name="NewURL" mobile_URL="Put URL Here" required="true" default_value="http://m.example.com"/>
+<Content type="html">
+<![CDATA[
+<script type="text/javascript"> 
+    top.location.replace(NewURL);
+</script>
+]]>
+</Content>
+</Module>
