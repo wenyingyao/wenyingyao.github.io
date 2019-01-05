@@ -4,7 +4,8 @@
 <Content type="html">
 <![CDATA[
 <script type="text/javascript"> 
-    top.location.replace(NewURL);
+    var prefs = new gadgets.Prefs();
+    top.location.replace(prefs.getString("NewURL"));
 </script>
 ]]>
 </Content>
